@@ -66,6 +66,7 @@
          line-height: 26px;
          max-width: 616px;
          margin-bottom: 45px;
+         animation-delay: .6s;
       }
    }
    &__subtitle {
@@ -78,6 +79,7 @@
       line-height: 74px;
       max-width: 616px;
       margin-bottom: 24px;
+      animation-delay: .3s;
    }
    &__info-link {
       color: #fff;
@@ -85,6 +87,7 @@
       font-size: 16px;
       display: block;
       margin-bottom: 107px;
+      animation-delay: .9s;
       transition: all .2s;
       &:hover{
          color: $hover;
@@ -105,6 +108,7 @@
       bottom: -20%;
       min-height: 227px;
       z-index: 100;
+      animation-delay: 1.2s;
    }
    &__brands-item{
       display: flex;
@@ -141,6 +145,7 @@
       line-height: 46px;
       margin-bottom: 35px;
       max-width: 470px;
+      animation-delay: .3s;
    }
    &__text {
       color: rgba(33, 56, 66, 0.60);
@@ -148,12 +153,14 @@
       line-height: 26px;
       margin-bottom: 42px;
       max-width: 475px;
+      animation-delay: .5s;
    }
    &__link {
       color: rgba(33, 56, 66, 0.60);
       font-size: 16px;
       line-height: 26px;
       transition: all .2s;
+      animation-delay: .7s;
       &:hover{
          color: $hover;
          text-decoration: underline;
@@ -164,6 +171,7 @@
       padding-left: 40px;
       padding-right: 8px;
       max-width: 475px;
+      animation-delay: .9s;
       background: #FFF;
       box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
    }
@@ -229,6 +237,9 @@
       position: relative;
       margin-bottom: 150px;
    }
+   &__img-box{
+      animation-delay: .3s;
+   }
    &__wrapper-last{
       margin-bottom: 300px;
    }
@@ -241,12 +252,14 @@
       font-size: 36px;
       line-height: 48px;
       margin-bottom: 24px;
+      animation-delay: .3s;
    }
    &__text {
       color: rgba(33, 56, 66, 0.60);
       font-size: 16px;
       line-height: 26px;
       margin-bottom: 35px;
+      animation-delay: .5s;
    }
    &__text + .infoblock-right__text{
       margin-bottom: 90px;
@@ -255,6 +268,7 @@
       color: #D4D6D4;
       @extend %poppins-700;
       font-size: 16px;
+      animation-delay: .7s;
       transition: all .2s;
       &:hover{
          color: $hover;
@@ -268,6 +282,7 @@
       max-width: 453px;
       padding: 30px;
       background-color: #fff;
+      animation-delay: .9s;
       box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
    }
    &__review-text {
@@ -313,12 +328,14 @@
       font-size: 36px;
       line-height: 48px;
       margin-bottom: 24px;
+      animation-delay: .3s;
    }
    &__text {
       color: rgba(33, 56, 66, 0.60);
       font-size: 16px;
       line-height: 26px;
       margin-bottom: 35px;
+      animation-delay: .5s;
    }
    &__text + .infoblock-leftt__text{
       margin-bottom: 90px;
@@ -328,6 +345,7 @@
       @extend %poppins-700;
       font-size: 16px;
       transition: all .2s;
+      animation-delay: .7s;
       &:hover{
          color: $hover;
          text-decoration-line: underline;
@@ -340,6 +358,7 @@
       max-width: 453px;
       padding: 30px;
       background-color: #fff;
+      animation-delay: .9s;
       box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.15);
    }
    &__review-text {
@@ -377,6 +396,7 @@
       font-size: 36px;
       line-height: 46px; 
       margin-bottom: 60px;
+      animation-delay: .3s;
    }
    &__items {
       display: flex;
@@ -389,6 +409,7 @@
       height: 100%;
       display: flex;
       flex-direction: column;
+      animation-delay: .5s;
    }
    &__subtitle {
       color: #4D533C;
@@ -419,8 +440,8 @@
 
 //   =======   FOOTER   =======
 .footer {
+   background-color: #4A4D3B;
    &__wrapper{
-      background-color: #4A4D3B;
    }
 }
 .footer-top {
